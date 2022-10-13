@@ -4,6 +4,10 @@ import Categories from './Categories';
 import items from './data';
 
 function App() {
+
+
+
+  
   return (
     <div>
       <h3 className='title' >OUR MENU</h3>
