@@ -5,20 +5,20 @@ import items from './data';
 
 function App() {
 
+ const [category, setCategory] = useState("")
+ console.log(category);
 
 
-  
-  return (
-    <div>
-      <h3 className='title' >OUR MENU</h3>
+return (
+    <div className="section">
+      <h2 className='title'>OUR MENU</h2>
       <div className="underline"></div>
-
-      <Categories/>
-  <Menu items={items}/>
-  
+      <Categories Category={category} setCategory={setCategory} />
+      <Menu items = {items} category={category} />
+    
+     
     </div>
-
-  )
+  );
 }
 
 export default App;
