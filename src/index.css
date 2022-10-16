@@ -155,7 +155,7 @@ Menu
   background: var(--clr-gold);
   margin-left: auto;
   margin-right: auto;
- 
+  margin-bottom: 3rem;
 }
 .btn-container {
   margin-bottom: 4rem;
@@ -200,11 +200,11 @@ Menu
   border-radius: var(--radius);
   display: block;
 }
-
-
-
-
-
+.item-info{
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 0.5px dotted var(--clr-grey-5);
+}
 .item-info h4 {
   margin-bottom: 0.5rem;
 }
